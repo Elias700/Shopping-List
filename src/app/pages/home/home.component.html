@@ -1,0 +1,15 @@
+
+
+<div class="paragrafo">
+    @if(auth.isAuthenticated$ | async){
+        <p>Bem-vindo, {{ (auth.user$ | async)?.name }}! Aproveite a lista e tenha uma boa organização.</p>
+    }        
+</div>
+
+
+
+
+
+
+  
+
